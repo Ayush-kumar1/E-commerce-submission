@@ -15,47 +15,7 @@ const Cart = () => {
         return amount
     }
     
-    total(cart)
-    
-
-    // const reducer=(state,action)=>{
-
-    //     switch(action.type){
-
-    //         case "INCREMENT":
-    //             console.log(action.payload)
-                
-    //                return setItemsinCart((state)=> (
-    //                     state.map((elem)=>
-    //                     elem.id===action.payload.id
-    //                     ?{...elem, quantity:elem.quantity+1}
-    //                     :elem)))
-                    
-                
-
-    //         case "DECREMENT":
-    //             return{
-    //                 ...state,
-    //                  itemsinCart: state.itemsinCart.map((elem)=>
-    //                  elem.id===action.payload.id
-    //                  ?{...elem, quantity:elem.quantity-1}
-    //                  :elem)
-    //             } 
-
-    //             default:
-    //                 return state
-    //     }
-
-    // }
-
-    // const [state,dispatch]=useReducer(reducer,{itemsinCart});
-    // console.log(state.itemsinCart)
-    // console.log(cart.length)
-
-    
-
-
-
+ 
     return (
 
         <>
